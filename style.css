@@ -1,0 +1,63 @@
+/* ====== General styles ====== */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  line-height: 2.4;
+  color: #4b220c;
+  background-color:#e99546;
+}
+
+/* ====== Header ====== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #c8e7c0;
+  padding: 1rem 2rem;
+  color: #4d2506;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #60330b;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+/* Hover effect for links */
+header nav a:hover {
+  color: #bd7328;
+}
+
+/* ====== Sections ====== */
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background: #c8e7c0;
+}
+
+h1, h2 {
+  color: #4a2202d0;
+}
+
+/* ====== Footer ====== */
+footer {
+  background: #e99546;
+  color: #6a3c0f;
+  text-align: center;
+  padding: 2rem;
+}
